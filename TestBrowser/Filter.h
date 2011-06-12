@@ -1,5 +1,5 @@
 //
-//  ClearCloudFilter.h
+//  Filter.h
 //  Web
 //
 //  Created by Nicholas Suan on 10/19/10.
