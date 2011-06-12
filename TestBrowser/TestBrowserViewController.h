@@ -9,7 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface TestBrowserViewController : UIViewController {
-    
+        IBOutlet UIWebView *webView;    
+   
 }
 
 @end

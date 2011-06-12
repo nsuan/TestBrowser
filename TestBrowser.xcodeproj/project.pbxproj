@@ -22,6 +22,7 @@
 		CF64970514444628009EDF7D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF64970314444628009EDF7D /* InfoPlist.strings */; };
 		CF64970814444628009EDF7D /* TestBrowserTests.h in Resources */ = {isa = PBXBuildFile; fileRef = CF64970714444628009EDF7D /* TestBrowserTests.h */; };
 		CF64970A14444628009EDF7D /* TestBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF64970914444628009EDF7D /* TestBrowserTests.m */; };
+		CF64971514444628009EDF7D /* Filter.m in Sources */ = {isa = PBXBuildFile; fileRef = CF64971414444628009EDF7D /* Filter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,22 +40,24 @@
 		CF6496DA14444628009EDF7D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CF6496DC14444628009EDF7D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CF6496DE14444628009EDF7D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		CF6496E214444628009EDF7D /* TestBrowser-Info.plist */ = {isa = PBXFileReference; path = "TestBrowser-Info.plist"; sourceTree = "<group>"; };
+		CF6496E214444628009EDF7D /* TestBrowser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestBrowser-Info.plist"; sourceTree = "<group>"; };
 		CF6496E414444628009EDF7D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CF6496E614444628009EDF7D /* TestBrowser-Prefix.pch */ = {isa = PBXFileReference; path = "TestBrowser-Prefix.pch"; sourceTree = "<group>"; };
+		CF6496E614444628009EDF7D /* TestBrowser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestBrowser-Prefix.pch"; sourceTree = "<group>"; };
 		CF6496E714444628009EDF7D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CF6496E914444628009EDF7D /* TestBrowserAppDelegate.h */ = {isa = PBXFileReference; path = TestBrowserAppDelegate.h; sourceTree = "<group>"; };
+		CF6496E914444628009EDF7D /* TestBrowserAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestBrowserAppDelegate.h; sourceTree = "<group>"; };
 		CF6496EA14444628009EDF7D /* TestBrowserAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestBrowserAppDelegate.m; sourceTree = "<group>"; };
 		CF6496ED14444628009EDF7D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		CF6496EF14444628009EDF7D /* TestBrowserViewController.h */ = {isa = PBXFileReference; path = TestBrowserViewController.h; sourceTree = "<group>"; };
+		CF6496EF14444628009EDF7D /* TestBrowserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestBrowserViewController.h; sourceTree = "<group>"; };
 		CF6496F014444628009EDF7D /* TestBrowserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestBrowserViewController.m; sourceTree = "<group>"; };
 		CF6496F314444628009EDF7D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TestBrowserViewController.xib; sourceTree = "<group>"; };
 		CF6496FA14444628009EDF7D /* TestBrowserTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestBrowserTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF64970214444628009EDF7D /* TestBrowserTests-Info.plist */ = {isa = PBXFileReference; path = "TestBrowserTests-Info.plist"; sourceTree = "<group>"; };
+		CF64970214444628009EDF7D /* TestBrowserTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestBrowserTests-Info.plist"; sourceTree = "<group>"; };
 		CF64970414444628009EDF7D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CF64970614444628009EDF7D /* TestBrowserTests-Prefix.pch */ = {isa = PBXFileReference; path = "TestBrowserTests-Prefix.pch"; sourceTree = "<group>"; };
+		CF64970614444628009EDF7D /* TestBrowserTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestBrowserTests-Prefix.pch"; sourceTree = "<group>"; };
 		CF64970714444628009EDF7D /* TestBrowserTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestBrowserTests.h; sourceTree = "<group>"; };
 		CF64970914444628009EDF7D /* TestBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestBrowserTests.m; sourceTree = "<group>"; };
+		CF64971314444628009EDF7D /* Filter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Filter.h; sourceTree = "<group>"; };
+		CF64971414444628009EDF7D /* Filter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Filter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 		CF6496E014444628009EDF7D /* TestBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				CF64971314444628009EDF7D /* Filter.h */,
+				CF64971414444628009EDF7D /* Filter.m */,
 				CF6496E914444628009EDF7D /* TestBrowserAppDelegate.h */,
 				CF6496EA14444628009EDF7D /* TestBrowserAppDelegate.m */,
 				CF6496EC14444628009EDF7D /* MainWindow.xib */,
@@ -263,6 +268,7 @@
 				CF6496E814444628009EDF7D /* main.m in Sources */,
 				CF6496EB14444628009EDF7D /* TestBrowserAppDelegate.m in Sources */,
 				CF6496F114444628009EDF7D /* TestBrowserViewController.m in Sources */,
+				CF64971514444628009EDF7D /* Filter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

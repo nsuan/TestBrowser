@@ -25,13 +25,25 @@
 
 #pragma mark - View lifecycle
 
-/*
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+	NSString *urlAddress = @"http://1e400.net/sting.html";
+    
+	NSURL *url = [NSURL URLWithString:urlAddress];
+	NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
+    
+	//while(webView == NULL) {
+	//sleep(1);
+	//}
+	//theView = webView;
+	[webView loadRequest:requestObj];
+	//[addressBar setText:urlAddress];
+
 }
-*/
+
 
 - (void)viewDidUnload
 {
