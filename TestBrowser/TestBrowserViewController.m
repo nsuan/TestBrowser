@@ -30,7 +30,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	NSString *urlAddress = @"http://1e400.net/sting.html";
+	NSString *urlAddress = @"http://google.com/";
     
 	NSURL *url = [NSURL URLWithString:urlAddress];
 	NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
