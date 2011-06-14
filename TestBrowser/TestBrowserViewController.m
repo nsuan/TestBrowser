@@ -30,7 +30,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	NSString *urlAddress = @"http://prettybrd.com:8081/";
+	NSString *urlAddress = @"http://dragonstryfe.com/";
     
 	NSURL *url = [NSURL URLWithString:urlAddress];
 	NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
