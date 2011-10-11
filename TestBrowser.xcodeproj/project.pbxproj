@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF6496DB14444628009EDF7D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF6496DA14444628009EDF7D /* UIKit.framework */; };
+		CF6496DD14444628009EDF7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF6496DC14444628009EDF7D /* Foundation.framework */; };
+		CF6496DF14444628009EDF7D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF6496DE14444628009EDF7D /* CoreGraphics.framework */; };
+		CF6496E514444628009EDF7D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF6496E314444628009EDF7D /* InfoPlist.strings */; };
+		CF6496E814444628009EDF7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6496E714444628009EDF7D /* main.m */; };
+		CF6496EB14444628009EDF7D /* TestBrowserAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6496EA14444628009EDF7D /* TestBrowserAppDelegate.m */; };
+		CF6496EE14444628009EDF7D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF6496EC14444628009EDF7D /* MainWindow.xib */; };
+		CF6496F114444628009EDF7D /* TestBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6496F014444628009EDF7D /* TestBrowserViewController.m */; };
+		CF6496F414444628009EDF7D /* TestBrowserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF6496F214444628009EDF7D /* TestBrowserViewController.xib */; };
+		CF6496FB14444628009EDF7D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF6496DA14444628009EDF7D /* UIKit.framework */; };
+		CF6496FC14444628009EDF7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF6496DC14444628009EDF7D /* Foundation.framework */; };
+		CF6496FD14444628009EDF7D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF6496DE14444628009EDF7D /* CoreGraphics.framework */; };
+		CF64970514444628009EDF7D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF64970314444628009EDF7D /* InfoPlist.strings */; };
+		CF64970814444628009EDF7D /* TestBrowserTests.h in Resources */ = {isa = PBXBuildFile; fileRef = CF64970714444628009EDF7D /* TestBrowserTests.h */; };
+		CF64970A14444628009EDF7D /* TestBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF64970914444628009EDF7D /* TestBrowserTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF6496FE14444628009EDF7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF6496CD14444626009EDF7D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF6496D514444627009EDF7D;
+			remoteInfo = TestBrowser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF6496D614444627009EDF7D /* TestBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF6496DA14444628009EDF7D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CF6496DC14444628009EDF7D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CF6496DE14444628009EDF7D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CF6496E214444628009EDF7D /* TestBrowser-Info.plist */ = {isa = PBXFileReference; path = "TestBrowser-Info.plist"; sourceTree = "<group>"; };
+		CF6496E414444628009EDF7D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CF6496E614444628009EDF7D /* TestBrowser-Prefix.pch */ = {isa = PBXFileReference; path = "TestBrowser-Prefix.pch"; sourceTree = "<group>"; };
+		CF6496E714444628009EDF7D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF6496E914444628009EDF7D /* TestBrowserAppDelegate.h */ = {isa = PBXFileReference; path = TestBrowserAppDelegate.h; sourceTree = "<group>"; };
+		CF6496EA14444628009EDF7D /* TestBrowserAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestBrowserAppDelegate.m; sourceTree = "<group>"; };
+		CF6496ED14444628009EDF7D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		CF6496EF14444628009EDF7D /* TestBrowserViewController.h */ = {isa = PBXFileReference; path = TestBrowserViewController.h; sourceTree = "<group>"; };
+		CF6496F014444628009EDF7D /* TestBrowserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestBrowserViewController.m; sourceTree = "<group>"; };
+		CF6496F314444628009EDF7D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TestBrowserViewController.xib; sourceTree = "<group>"; };
+		CF6496FA14444628009EDF7D /* TestBrowserTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestBrowserTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF64970214444628009EDF7D /* TestBrowserTests-Info.plist */ = {isa = PBXFileReference; path = "TestBrowserTests-Info.plist"; sourceTree = "<group>"; };
+		CF64970414444628009EDF7D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CF64970614444628009EDF7D /* TestBrowserTests-Prefix.pch */ = {isa = PBXFileReference; path = "TestBrowserTests-Prefix.pch"; sourceTree = "<group>"; };
+		CF64970714444628009EDF7D /* TestBrowserTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestBrowserTests.h; sourceTree = "<group>"; };
+		CF64970914444628009EDF7D /* TestBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestBrowserTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF6496D314444627009EDF7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF6496DB14444628009EDF7D /* UIKit.framework in Frameworks */,
+				CF6496DD14444628009EDF7D /* Foundation.framework in Frameworks */,
+				CF6496DF14444628009EDF7D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF6496F614444628009EDF7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF6496FB14444628009EDF7D /* UIKit.framework in Frameworks */,
+				CF6496FC14444628009EDF7D /* Foundation.framework in Frameworks */,
+				CF6496FD14444628009EDF7D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF6496CB14444626009EDF7D = {
+			isa = PBXGroup;
+			children = (
+				CF6496E014444628009EDF7D /* TestBrowser */,
+				CF64970014444628009EDF7D /* TestBrowserTests */,
+				CF6496D914444628009EDF7D /* Frameworks */,
+				CF6496D714444627009EDF7D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF6496D714444627009EDF7D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF6496D614444627009EDF7D /* TestBrowser.app */,
+				CF6496FA14444628009EDF7D /* TestBrowserTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF6496D914444628009EDF7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF6496DA14444628009EDF7D /* UIKit.framework */,
+				CF6496DC14444628009EDF7D /* Foundation.framework */,
+				CF6496DE14444628009EDF7D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF6496E014444628009EDF7D /* TestBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				CF6496E914444628009EDF7D /* TestBrowserAppDelegate.h */,
+				CF6496EA14444628009EDF7D /* TestBrowserAppDelegate.m */,
+				CF6496EC14444628009EDF7D /* MainWindow.xib */,
+				CF6496EF14444628009EDF7D /* TestBrowserViewController.h */,
+				CF6496F014444628009EDF7D /* TestBrowserViewController.m */,
+				CF6496F214444628009EDF7D /* TestBrowserViewController.xib */,
+				CF6496E114444628009EDF7D /* Supporting Files */,
+			);
+			path = TestBrowser;
+			sourceTree = "<group>";
+		};
+		CF6496E114444628009EDF7D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF6496E214444628009EDF7D /* TestBrowser-Info.plist */,
+				CF6496E314444628009EDF7D /* InfoPlist.strings */,
+				CF6496E614444628009EDF7D /* TestBrowser-Prefix.pch */,
+				CF6496E714444628009EDF7D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF64970014444628009EDF7D /* TestBrowserTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF64970714444628009EDF7D /* TestBrowserTests.h */,
+				CF64970914444628009EDF7D /* TestBrowserTests.m */,
+				CF64970114444628009EDF7D /* Supporting Files */,
+			);
+			path = TestBrowserTests;
+			sourceTree = "<group>";
+		};
+		CF64970114444628009EDF7D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF64970214444628009EDF7D /* TestBrowserTests-Info.plist */,
+				CF64970314444628009EDF7D /* InfoPlist.strings */,
+				CF64970614444628009EDF7D /* TestBrowserTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF6496D514444627009EDF7D /* TestBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF64970D14444628009EDF7D /* Build configuration list for PBXNativeTarget "TestBrowser" */;
+			buildPhases = (
+				CF6496D214444627009EDF7D /* Sources */,
+				CF6496D314444627009EDF7D /* Frameworks */,
+				CF6496D414444627009EDF7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestBrowser;
+			productName = TestBrowser;
+			productReference = CF6496D614444627009EDF7D /* TestBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF6496F914444628009EDF7D /* TestBrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF64971014444628009EDF7D /* Build configuration list for PBXNativeTarget "TestBrowserTests" */;
+			buildPhases = (
+				CF6496F514444628009EDF7D /* Sources */,
+				CF6496F614444628009EDF7D /* Frameworks */,
+				CF6496F714444628009EDF7D /* Resources */,
+				CF6496F814444628009EDF7D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF6496FF14444628009EDF7D /* PBXTargetDependency */,
+			);
+			name = TestBrowserTests;
+			productName = TestBrowserTests;
+			productReference = CF6496FA14444628009EDF7D /* TestBrowserTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF6496CD14444626009EDF7D /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = CF6496D014444627009EDF7D /* Build configuration list for PBXProject "TestBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF6496CB14444626009EDF7D;
+			productRefGroup = CF6496D714444627009EDF7D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF6496D514444627009EDF7D /* TestBrowser */,
+				CF6496F914444628009EDF7D /* TestBrowserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF6496D414444627009EDF7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF6496E514444628009EDF7D /* InfoPlist.strings in Resources */,
+				CF6496EE14444628009EDF7D /* MainWindow.xib in Resources */,
+				CF6496F414444628009EDF7D /* TestBrowserViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF6496F714444628009EDF7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF64970514444628009EDF7D /* InfoPlist.strings in Resources */,
+				CF64970814444628009EDF7D /* TestBrowserTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CF6496F814444628009EDF7D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF6496D214444627009EDF7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF6496E814444628009EDF7D /* main.m in Sources */,
+				CF6496EB14444628009EDF7D /* TestBrowserAppDelegate.m in Sources */,
+				CF6496F114444628009EDF7D /* TestBrowserViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF6496F514444628009EDF7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF64970A14444628009EDF7D /* TestBrowserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF6496FF14444628009EDF7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF6496D514444627009EDF7D /* TestBrowser */;
+			targetProxy = CF6496FE14444628009EDF7D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF6496E314444628009EDF7D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF6496E414444628009EDF7D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CF6496EC14444628009EDF7D /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF6496ED14444628009EDF7D /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		CF6496F214444628009EDF7D /* TestBrowserViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF6496F314444628009EDF7D /* en */,
+			);
+			name = TestBrowserViewController.xib;
+			sourceTree = "<group>";
+		};
+		CF64970314444628009EDF7D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF64970414444628009EDF7D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF64970B14444628009EDF7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF64970C14444628009EDF7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		CF64970E14444628009EDF7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestBrowser/TestBrowser-Prefix.pch";
+				INFOPLIST_FILE = "TestBrowser/TestBrowser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CF64970F14444628009EDF7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestBrowser/TestBrowser-Prefix.pch";
+				INFOPLIST_FILE = "TestBrowser/TestBrowser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CF64971114444628009EDF7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TestBrowser.app/TestBrowser";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestBrowserTests/TestBrowserTests-Prefix.pch";
+				INFOPLIST_FILE = "TestBrowserTests/TestBrowserTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CF64971214444628009EDF7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TestBrowser.app/TestBrowser";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestBrowserTests/TestBrowserTests-Prefix.pch";
+				INFOPLIST_FILE = "TestBrowserTests/TestBrowserTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF6496D014444627009EDF7D /* Build configuration list for PBXProject "TestBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF64970B14444628009EDF7D /* Debug */,
+				CF64970C14444628009EDF7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF64970D14444628009EDF7D /* Build configuration list for PBXNativeTarget "TestBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF64970E14444628009EDF7D /* Debug */,
+				CF64970F14444628009EDF7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF64971014444628009EDF7D /* Build configuration list for PBXNativeTarget "TestBrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF64971114444628009EDF7D /* Debug */,
+				CF64971214444628009EDF7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF6496CD14444626009EDF7D /* Project object */;
+}
